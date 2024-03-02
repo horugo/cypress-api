@@ -1,0 +1,26 @@
+{
+  "name": "mark85-cypress-api",
+  "version": "1.0.0",
+  "description": "Projeto de testes de API do Mark85",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "mark85",
+    "mongodb",
+    "rabbimq"
+  ],
+  "author": "Victor Hugo",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.1",
+    "allure-commandline": "^2.27.0",
+    "cypress": "^13.6.4",
+    "cypress-plugin-api": "^2.11.1",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.3.0"
+  }
+}
